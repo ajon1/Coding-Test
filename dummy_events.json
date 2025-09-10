@@ -1,0 +1,7089 @@
+[
+  {
+    "id": "evt-001",
+    "title": "Dummy Event 1",
+    "status": "completed",
+    "date": "2025-05-05",
+    "startTime": "07:00",
+    "endTime": "17:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-002",
+      "name": "Richard Jacobs"
+    },
+    "businessUnit": {
+      "id": "bu-021",
+      "name": "Jay Diaz"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-002",
+    "title": "Dummy Event 2",
+    "status": "pending",
+    "date": "2025-02-22",
+    "startTime": "14:30",
+    "endTime": "17:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-013",
+      "name": "Jeffrey Garner"
+    },
+    "businessUnit": {
+      "id": "bu-041",
+      "name": "Rebecca Bowers"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-021",
+        "title": "Dummy Event 21",
+        "status": "completed",
+        "date": "2024-12-01",
+        "startTime": "07:30",
+        "endTime": "19:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-006",
+          "name": "Donna Myers"
+        },
+        "businessUnit": {
+          "id": "bu-030",
+          "name": "Crystal Taylor"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-022",
+        "title": "Dummy Event 22",
+        "status": "pending",
+        "date": "2024-09-15",
+        "startTime": "11:00",
+        "endTime": "19:00",
+        "minutes": 30,
+        "user": {
+          "id": "usr-010",
+          "name": "Sarah Brown"
+        },
+        "businessUnit": {
+          "id": "bu-026",
+          "name": "Christopher Webb"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-023",
+        "title": "Dummy Event 23",
+        "status": "pending",
+        "date": "2025-02-13",
+        "startTime": "16:30",
+        "endTime": "20:00",
+        "minutes": 45,
+        "user": {
+          "id": "usr-009",
+          "name": "Dustin Marshall"
+        },
+        "businessUnit": {
+          "id": "bu-006",
+          "name": "Jenna Caldwell"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-003",
+    "title": "Dummy Event 3",
+    "status": "cancelled",
+    "date": "2025-04-24",
+    "startTime": "12:00",
+    "endTime": "18:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-008",
+      "name": "Adrian Ortiz"
+    },
+    "businessUnit": {
+      "id": "bu-008",
+      "name": "Erica Stevens"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-031",
+        "title": "Dummy Event 31",
+        "status": "cancelled",
+        "date": "2024-12-08",
+        "startTime": "13:00",
+        "endTime": "20:30",
+        "minutes": 30,
+        "user": {
+          "id": "usr-001",
+          "name": "Erin White"
+        },
+        "businessUnit": {
+          "id": "bu-044",
+          "name": "Melissa Miller"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-032",
+        "title": "Dummy Event 32",
+        "status": "completed",
+        "date": "2024-08-29",
+        "startTime": "16:30",
+        "endTime": "19:30",
+        "minutes": 30,
+        "user": {
+          "id": "usr-002",
+          "name": "Judith White"
+        },
+        "businessUnit": {
+          "id": "bu-034",
+          "name": "Jennifer Miller"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-004",
+    "title": "Dummy Event 4",
+    "status": "completed",
+    "date": "2025-07-28",
+    "startTime": "10:30",
+    "endTime": "19:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-010",
+      "name": "Sabrina Casey"
+    },
+    "businessUnit": {
+      "id": "bu-006",
+      "name": "Mr. Justin Sharp"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-041",
+        "title": "Dummy Event 41",
+        "status": "pending",
+        "date": "2025-06-19",
+        "startTime": "11:00",
+        "endTime": "20:00",
+        "minutes": 90,
+        "user": {
+          "id": "usr-012",
+          "name": "Sheri Bowman"
+        },
+        "businessUnit": {
+          "id": "bu-045",
+          "name": "John Miller DDS"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-411",
+            "title": "Dummy Event 411",
+            "status": "cancelled",
+            "date": "2025-07-30",
+            "startTime": "07:30",
+            "endTime": "17:00",
+            "minutes": 90,
+            "user": {
+              "id": "usr-002",
+              "name": "Michelle Zavala"
+            },
+            "businessUnit": {
+              "id": "bu-006",
+              "name": "Rachel Adams"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-412",
+            "title": "Dummy Event 412",
+            "status": "cancelled",
+            "date": "2025-07-05",
+            "startTime": "15:00",
+            "endTime": "20:30",
+            "minutes": 30,
+            "user": {
+              "id": "usr-007",
+              "name": "David Wilson"
+            },
+            "businessUnit": {
+              "id": "bu-013",
+              "name": "Christina Ball"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-042",
+        "title": "Dummy Event 42",
+        "status": "pending",
+        "date": "2025-07-29",
+        "startTime": "07:00",
+        "endTime": "17:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-018",
+          "name": "Kyle Carter"
+        },
+        "businessUnit": {
+          "id": "bu-032",
+          "name": "Eric Smith"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-043",
+        "title": "Dummy Event 43",
+        "status": "cancelled",
+        "date": "2025-08-05",
+        "startTime": "11:00",
+        "endTime": "18:30",
+        "minutes": 30,
+        "user": {
+          "id": "usr-020",
+          "name": "Todd Ingram"
+        },
+        "businessUnit": {
+          "id": "bu-050",
+          "name": "Eric Newton"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-005",
+    "title": "Dummy Event 5",
+    "status": "pending",
+    "date": "2024-09-17",
+    "startTime": "13:00",
+    "endTime": "20:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-017",
+      "name": "Kristina Anderson"
+    },
+    "businessUnit": {
+      "id": "bu-037",
+      "name": "Erin Garner"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-006",
+    "title": "Dummy Event 6",
+    "status": "completed",
+    "date": "2024-09-02",
+    "startTime": "08:00",
+    "endTime": "19:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-020",
+      "name": "Julia Travis"
+    },
+    "businessUnit": {
+      "id": "bu-040",
+      "name": "Jennifer Sanchez"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-007",
+    "title": "Dummy Event 7",
+    "status": "cancelled",
+    "date": "2025-01-19",
+    "startTime": "14:30",
+    "endTime": "19:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-012",
+      "name": "Mary Weaver"
+    },
+    "businessUnit": {
+      "id": "bu-046",
+      "name": "Jessica Ponce"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-008",
+    "title": "Dummy Event 8",
+    "status": "pending",
+    "date": "2025-06-21",
+    "startTime": "15:00",
+    "endTime": "19:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-017",
+      "name": "Sean Cole"
+    },
+    "businessUnit": {
+      "id": "bu-035",
+      "name": "Gary Hansen"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-009",
+    "title": "Dummy Event 9",
+    "status": "pending",
+    "date": "2025-06-24",
+    "startTime": "09:00",
+    "endTime": "18:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-018",
+      "name": "Jessica Mccall"
+    },
+    "businessUnit": {
+      "id": "bu-008",
+      "name": "Jeffery Bean"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-010",
+    "title": "Dummy Event 10",
+    "status": "completed",
+    "date": "2024-11-02",
+    "startTime": "15:00",
+    "endTime": "17:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-013",
+      "name": "Jonathan Davis"
+    },
+    "businessUnit": {
+      "id": "bu-012",
+      "name": "Peter Villa"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-101",
+        "title": "Dummy Event 101",
+        "status": "pending",
+        "date": "2025-09-11",
+        "startTime": "16:30",
+        "endTime": "18:00",
+        "minutes": 30,
+        "user": {
+          "id": "usr-009",
+          "name": "Susan Johnson"
+        },
+        "businessUnit": {
+          "id": "bu-005",
+          "name": "Scott Hernandez"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-102",
+        "title": "Dummy Event 102",
+        "status": "completed",
+        "date": "2025-05-31",
+        "startTime": "11:30",
+        "endTime": "18:00",
+        "minutes": 30,
+        "user": {
+          "id": "usr-019",
+          "name": "Samantha Chavez"
+        },
+        "businessUnit": {
+          "id": "bu-019",
+          "name": "Robert Coleman"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-103",
+        "title": "Dummy Event 103",
+        "status": "cancelled",
+        "date": "2024-11-18",
+        "startTime": "13:00",
+        "endTime": "19:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-010",
+          "name": "Ryan Martin"
+        },
+        "businessUnit": {
+          "id": "bu-008",
+          "name": "Brianna Williams"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-1031",
+            "title": "Dummy Event 1031",
+            "status": "pending",
+            "date": "2025-03-13",
+            "startTime": "08:30",
+            "endTime": "17:30",
+            "minutes": 30,
+            "user": {
+              "id": "usr-005",
+              "name": "Dr. Robert Hart MD"
+            },
+            "businessUnit": {
+              "id": "bu-046",
+              "name": "Darlene Hubbard"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-1032",
+            "title": "Dummy Event 1032",
+            "status": "pending",
+            "date": "2025-08-12",
+            "startTime": "13:00",
+            "endTime": "19:30",
+            "minutes": 90,
+            "user": {
+              "id": "usr-003",
+              "name": "Jeanette Thomas"
+            },
+            "businessUnit": {
+              "id": "bu-024",
+              "name": "Erica Mclaughlin"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-1033",
+            "title": "Dummy Event 1033",
+            "status": "completed",
+            "date": "2025-05-18",
+            "startTime": "10:00",
+            "endTime": "18:30",
+            "minutes": 60,
+            "user": {
+              "id": "usr-004",
+              "name": "Daniel Olson"
+            },
+            "businessUnit": {
+              "id": "bu-014",
+              "name": "Brandi Elliott"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-011",
+    "title": "Dummy Event 11",
+    "status": "pending",
+    "date": "2024-12-05",
+    "startTime": "14:00",
+    "endTime": "18:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-002",
+      "name": "Timothy Diaz"
+    },
+    "businessUnit": {
+      "id": "bu-042",
+      "name": "Karen Bentley"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-012",
+    "title": "Dummy Event 12",
+    "status": "cancelled",
+    "date": "2025-06-12",
+    "startTime": "14:30",
+    "endTime": "20:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-002",
+      "name": "Elizabeth Rios"
+    },
+    "businessUnit": {
+      "id": "bu-033",
+      "name": "Ryan Forbes"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-013",
+    "title": "Dummy Event 13",
+    "status": "completed",
+    "date": "2024-11-11",
+    "startTime": "07:00",
+    "endTime": "19:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-014",
+      "name": "Roger Miller"
+    },
+    "businessUnit": {
+      "id": "bu-020",
+      "name": "William Hays"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-131",
+        "title": "Dummy Event 131",
+        "status": "cancelled",
+        "date": "2025-07-02",
+        "startTime": "15:30",
+        "endTime": "20:00",
+        "minutes": 45,
+        "user": {
+          "id": "usr-017",
+          "name": "Tamara Morgan"
+        },
+        "businessUnit": {
+          "id": "bu-041",
+          "name": "Karen Bennett"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-132",
+        "title": "Dummy Event 132",
+        "status": "cancelled",
+        "date": "2025-06-28",
+        "startTime": "12:00",
+        "endTime": "19:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-015",
+          "name": "Kenneth Harris"
+        },
+        "businessUnit": {
+          "id": "bu-041",
+          "name": "Pamela Faulkner"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-1321",
+            "title": "Dummy Event 1321",
+            "status": "cancelled",
+            "date": "2025-04-19",
+            "startTime": "12:30",
+            "endTime": "20:30",
+            "minutes": 30,
+            "user": {
+              "id": "usr-007",
+              "name": "Darren Williams"
+            },
+            "businessUnit": {
+              "id": "bu-017",
+              "name": "Brittany Hernandez"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-1322",
+            "title": "Dummy Event 1322",
+            "status": "cancelled",
+            "date": "2024-09-01",
+            "startTime": "11:30",
+            "endTime": "20:00",
+            "minutes": 90,
+            "user": {
+              "id": "usr-005",
+              "name": "Terry Johnson"
+            },
+            "businessUnit": {
+              "id": "bu-049",
+              "name": "Alexander Walker"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-133",
+        "title": "Dummy Event 133",
+        "status": "cancelled",
+        "date": "2025-07-04",
+        "startTime": "13:00",
+        "endTime": "20:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-002",
+          "name": "April Spencer"
+        },
+        "businessUnit": {
+          "id": "bu-011",
+          "name": "Garrett Cummings"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-1331",
+            "title": "Dummy Event 1331",
+            "status": "completed",
+            "date": "2024-10-15",
+            "startTime": "12:00",
+            "endTime": "20:00",
+            "minutes": 30,
+            "user": {
+              "id": "usr-002",
+              "name": "Brandon Allen"
+            },
+            "businessUnit": {
+              "id": "bu-014",
+              "name": "Taylor Lara"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-1332",
+            "title": "Dummy Event 1332",
+            "status": "cancelled",
+            "date": "2025-05-18",
+            "startTime": "14:30",
+            "endTime": "17:30",
+            "minutes": 60,
+            "user": {
+              "id": "usr-018",
+              "name": "Timothy Nelson"
+            },
+            "businessUnit": {
+              "id": "bu-022",
+              "name": "Mary Allen"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-014",
+    "title": "Dummy Event 14",
+    "status": "pending",
+    "date": "2025-04-29",
+    "startTime": "12:30",
+    "endTime": "19:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-016",
+      "name": "Danielle Graham"
+    },
+    "businessUnit": {
+      "id": "bu-013",
+      "name": "Jenny Richards MD"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-015",
+    "title": "Dummy Event 15",
+    "status": "pending",
+    "date": "2024-12-22",
+    "startTime": "15:00",
+    "endTime": "20:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-014",
+      "name": "Kristy Nash"
+    },
+    "businessUnit": {
+      "id": "bu-011",
+      "name": "Cynthia Conner"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-016",
+    "title": "Dummy Event 16",
+    "status": "cancelled",
+    "date": "2025-06-25",
+    "startTime": "12:00",
+    "endTime": "20:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-001",
+      "name": "Laura Bailey"
+    },
+    "businessUnit": {
+      "id": "bu-006",
+      "name": "David Williams"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-017",
+    "title": "Dummy Event 17",
+    "status": "cancelled",
+    "date": "2024-09-01",
+    "startTime": "09:00",
+    "endTime": "19:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-011",
+      "name": "Nichole House"
+    },
+    "businessUnit": {
+      "id": "bu-049",
+      "name": "Christopher Dennis"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-018",
+    "title": "Dummy Event 18",
+    "status": "pending",
+    "date": "2024-12-15",
+    "startTime": "08:00",
+    "endTime": "18:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-004",
+      "name": "Barbara Mendez"
+    },
+    "businessUnit": {
+      "id": "bu-015",
+      "name": "Alicia Ewing"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-019",
+    "title": "Dummy Event 19",
+    "status": "completed",
+    "date": "2024-11-21",
+    "startTime": "07:30",
+    "endTime": "18:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-019",
+      "name": "Jesus Le"
+    },
+    "businessUnit": {
+      "id": "bu-028",
+      "name": "Michael Summers"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-191",
+        "title": "Dummy Event 191",
+        "status": "cancelled",
+        "date": "2025-05-18",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-005",
+          "name": "John Williams"
+        },
+        "businessUnit": {
+          "id": "bu-044",
+          "name": "David Galloway"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-020",
+    "title": "Dummy Event 20",
+    "status": "cancelled",
+    "date": "2024-11-22",
+    "startTime": "15:30",
+    "endTime": "20:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-001",
+      "name": "James Wilkinson"
+    },
+    "businessUnit": {
+      "id": "bu-017",
+      "name": "Deborah Joyce"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-021",
+    "title": "Dummy Event 21",
+    "status": "cancelled",
+    "date": "2025-06-11",
+    "startTime": "14:30",
+    "endTime": "18:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-009",
+      "name": "Dr. Jason Vargas"
+    },
+    "businessUnit": {
+      "id": "bu-030",
+      "name": "Corey Johnson"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-022",
+    "title": "Dummy Event 22",
+    "status": "pending",
+    "date": "2025-08-06",
+    "startTime": "12:00",
+    "endTime": "17:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-013",
+      "name": "Sheri Leon"
+    },
+    "businessUnit": {
+      "id": "bu-045",
+      "name": "Derek Woodard"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-023",
+    "title": "Dummy Event 23",
+    "status": "cancelled",
+    "date": "2025-08-08",
+    "startTime": "08:30",
+    "endTime": "19:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-009",
+      "name": "Lisa Carroll"
+    },
+    "businessUnit": {
+      "id": "bu-039",
+      "name": "Betty Gibson"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-024",
+    "title": "Dummy Event 24",
+    "status": "cancelled",
+    "date": "2024-08-25",
+    "startTime": "08:00",
+    "endTime": "17:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-006",
+      "name": "Jacqueline Howell"
+    },
+    "businessUnit": {
+      "id": "bu-032",
+      "name": "Kellie Barton"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-241",
+        "title": "Dummy Event 241",
+        "status": "pending",
+        "date": "2025-08-01",
+        "startTime": "16:30",
+        "endTime": "18:30",
+        "minutes": 90,
+        "user": {
+          "id": "usr-012",
+          "name": "Julia Parker"
+        },
+        "businessUnit": {
+          "id": "bu-050",
+          "name": "Gabrielle Greer"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-025",
+    "title": "Dummy Event 25",
+    "status": "pending",
+    "date": "2024-09-25",
+    "startTime": "15:30",
+    "endTime": "18:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-020",
+      "name": "Paul Flores"
+    },
+    "businessUnit": {
+      "id": "bu-002",
+      "name": "Jacob Campbell"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-026",
+    "title": "Dummy Event 26",
+    "status": "pending",
+    "date": "2025-08-25",
+    "startTime": "13:00",
+    "endTime": "18:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-017",
+      "name": "Amanda Blake"
+    },
+    "businessUnit": {
+      "id": "bu-026",
+      "name": "Ray Carter"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-027",
+    "title": "Dummy Event 27",
+    "status": "pending",
+    "date": "2025-04-12",
+    "startTime": "15:30",
+    "endTime": "17:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-013",
+      "name": "Keith Hunter"
+    },
+    "businessUnit": {
+      "id": "bu-048",
+      "name": "Kayla Duran"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-028",
+    "title": "Dummy Event 28",
+    "status": "pending",
+    "date": "2024-08-28",
+    "startTime": "15:30",
+    "endTime": "17:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-020",
+      "name": "Collin Romero"
+    },
+    "businessUnit": {
+      "id": "bu-025",
+      "name": "Samuel Moore"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-029",
+    "title": "Dummy Event 29",
+    "status": "completed",
+    "date": "2024-10-25",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-019",
+      "name": "Mario House"
+    },
+    "businessUnit": {
+      "id": "bu-049",
+      "name": "Brenda Jackson"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-030",
+    "title": "Dummy Event 30",
+    "status": "pending",
+    "date": "2025-03-23",
+    "startTime": "14:00",
+    "endTime": "20:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-011",
+      "name": "Charles Reese"
+    },
+    "businessUnit": {
+      "id": "bu-017",
+      "name": "Sonya Jordan"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-031",
+    "title": "Dummy Event 31",
+    "status": "completed",
+    "date": "2024-11-13",
+    "startTime": "13:30",
+    "endTime": "19:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-014",
+      "name": "Jordan Monroe"
+    },
+    "businessUnit": {
+      "id": "bu-045",
+      "name": "Zachary Hanson MD"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-032",
+    "title": "Dummy Event 32",
+    "status": "completed",
+    "date": "2024-10-28",
+    "startTime": "13:00",
+    "endTime": "20:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-012",
+      "name": "Monica Leon"
+    },
+    "businessUnit": {
+      "id": "bu-005",
+      "name": "Christina Guzman"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-033",
+    "title": "Dummy Event 33",
+    "status": "completed",
+    "date": "2024-10-08",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-004",
+      "name": "Peggy Cohen"
+    },
+    "businessUnit": {
+      "id": "bu-048",
+      "name": "Julia Harvey"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-331",
+        "title": "Dummy Event 331",
+        "status": "completed",
+        "date": "2025-04-05",
+        "startTime": "15:00",
+        "endTime": "20:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-006",
+          "name": "Anthony Guerrero DDS"
+        },
+        "businessUnit": {
+          "id": "bu-045",
+          "name": "James Cross"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-3311",
+            "title": "Dummy Event 3311",
+            "status": "completed",
+            "date": "2024-10-04",
+            "startTime": "09:30",
+            "endTime": "20:30",
+            "minutes": 60,
+            "user": {
+              "id": "usr-017",
+              "name": "Daniel King"
+            },
+            "businessUnit": {
+              "id": "bu-038",
+              "name": "Jennifer Dalton"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-3312",
+            "title": "Dummy Event 3312",
+            "status": "completed",
+            "date": "2025-02-16",
+            "startTime": "15:00",
+            "endTime": "20:30",
+            "minutes": 90,
+            "user": {
+              "id": "usr-016",
+              "name": "Jenna Nunez"
+            },
+            "businessUnit": {
+              "id": "bu-050",
+              "name": "Jennifer Coleman"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-332",
+        "title": "Dummy Event 332",
+        "status": "pending",
+        "date": "2025-09-16",
+        "startTime": "16:30",
+        "endTime": "19:30",
+        "minutes": 30,
+        "user": {
+          "id": "usr-017",
+          "name": "Janice Blake"
+        },
+        "businessUnit": {
+          "id": "bu-034",
+          "name": "Eddie Ward"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-3321",
+            "title": "Dummy Event 3321",
+            "status": "cancelled",
+            "date": "2024-09-25",
+            "startTime": "13:00",
+            "endTime": "19:30",
+            "minutes": 90,
+            "user": {
+              "id": "usr-012",
+              "name": "Candace Lewis"
+            },
+            "businessUnit": {
+              "id": "bu-034",
+              "name": "Amanda Nguyen"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-3322",
+            "title": "Dummy Event 3322",
+            "status": "completed",
+            "date": "2025-01-08",
+            "startTime": "13:00",
+            "endTime": "18:30",
+            "minutes": 45,
+            "user": {
+              "id": "usr-008",
+              "name": "Kevin Ward"
+            },
+            "businessUnit": {
+              "id": "bu-049",
+              "name": "Jennifer Morris"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-034",
+    "title": "Dummy Event 34",
+    "status": "completed",
+    "date": "2025-03-09",
+    "startTime": "08:30",
+    "endTime": "17:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-005",
+      "name": "Russell Miller"
+    },
+    "businessUnit": {
+      "id": "bu-038",
+      "name": "Eric Jones"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-035",
+    "title": "Dummy Event 35",
+    "status": "cancelled",
+    "date": "2024-09-11",
+    "startTime": "12:00",
+    "endTime": "17:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-006",
+      "name": "Christopher Hernandez"
+    },
+    "businessUnit": {
+      "id": "bu-009",
+      "name": "Amanda Wilson"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-351",
+        "title": "Dummy Event 351",
+        "status": "completed",
+        "date": "2025-04-21",
+        "startTime": "08:30",
+        "endTime": "20:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-013",
+          "name": "Michelle Davis"
+        },
+        "businessUnit": {
+          "id": "bu-043",
+          "name": "Victoria Owen"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-352",
+        "title": "Dummy Event 352",
+        "status": "completed",
+        "date": "2025-02-07",
+        "startTime": "15:00",
+        "endTime": "17:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-013",
+          "name": "Travis Smith"
+        },
+        "businessUnit": {
+          "id": "bu-022",
+          "name": "Carl Edwards"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-3521",
+            "title": "Dummy Event 3521",
+            "status": "cancelled",
+            "date": "2025-09-01",
+            "startTime": "08:30",
+            "endTime": "18:00",
+            "minutes": 90,
+            "user": {
+              "id": "usr-008",
+              "name": "Christopher Lee"
+            },
+            "businessUnit": {
+              "id": "bu-014",
+              "name": "Monica Taylor"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-3522",
+            "title": "Dummy Event 3522",
+            "status": "cancelled",
+            "date": "2024-11-07",
+            "startTime": "11:30",
+            "endTime": "18:00",
+            "minutes": 30,
+            "user": {
+              "id": "usr-007",
+              "name": "Edward Booth"
+            },
+            "businessUnit": {
+              "id": "bu-027",
+              "name": "Christina Oneill"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-353",
+        "title": "Dummy Event 353",
+        "status": "completed",
+        "date": "2025-04-30",
+        "startTime": "12:30",
+        "endTime": "18:00",
+        "minutes": 30,
+        "user": {
+          "id": "usr-004",
+          "name": "Anita Vasquez"
+        },
+        "businessUnit": {
+          "id": "bu-013",
+          "name": "Matthew Haney"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-036",
+    "title": "Dummy Event 36",
+    "status": "pending",
+    "date": "2025-05-24",
+    "startTime": "15:00",
+    "endTime": "20:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-006",
+      "name": "Regina Frank"
+    },
+    "businessUnit": {
+      "id": "bu-023",
+      "name": "Laurie Ballard"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-037",
+    "title": "Dummy Event 37",
+    "status": "cancelled",
+    "date": "2025-07-04",
+    "startTime": "07:30",
+    "endTime": "19:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-019",
+      "name": "Stephanie Lara"
+    },
+    "businessUnit": {
+      "id": "bu-019",
+      "name": "Antonio Brown"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-038",
+    "title": "Dummy Event 38",
+    "status": "pending",
+    "date": "2024-12-07",
+    "startTime": "15:30",
+    "endTime": "17:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-017",
+      "name": "William Mcmahon"
+    },
+    "businessUnit": {
+      "id": "bu-020",
+      "name": "Brittany Fisher"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-039",
+    "title": "Dummy Event 39",
+    "status": "completed",
+    "date": "2025-07-26",
+    "startTime": "08:30",
+    "endTime": "17:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-019",
+      "name": "David Brewer"
+    },
+    "businessUnit": {
+      "id": "bu-038",
+      "name": "Tyler Gomez"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-040",
+    "title": "Dummy Event 40",
+    "status": "completed",
+    "date": "2024-08-25",
+    "startTime": "14:30",
+    "endTime": "19:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-003",
+      "name": "Matthew Bass"
+    },
+    "businessUnit": {
+      "id": "bu-012",
+      "name": "Tonya Li"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-401",
+        "title": "Dummy Event 401",
+        "status": "pending",
+        "date": "2025-01-01",
+        "startTime": "15:00",
+        "endTime": "19:00",
+        "minutes": 90,
+        "user": {
+          "id": "usr-003",
+          "name": "Amy Hall"
+        },
+        "businessUnit": {
+          "id": "bu-015",
+          "name": "Donna Grimes"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-041",
+    "title": "Dummy Event 41",
+    "status": "cancelled",
+    "date": "2025-03-05",
+    "startTime": "08:30",
+    "endTime": "19:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-001",
+      "name": "Chris Freeman"
+    },
+    "businessUnit": {
+      "id": "bu-005",
+      "name": "Kimberly Burke"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-042",
+    "title": "Dummy Event 42",
+    "status": "completed",
+    "date": "2025-06-05",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-020",
+      "name": "Andrew Wise"
+    },
+    "businessUnit": {
+      "id": "bu-011",
+      "name": "Miguel Allen"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-043",
+    "title": "Dummy Event 43",
+    "status": "cancelled",
+    "date": "2024-09-28",
+    "startTime": "11:30",
+    "endTime": "18:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-016",
+      "name": "Pamela Herrera"
+    },
+    "businessUnit": {
+      "id": "bu-011",
+      "name": "Justin Burch"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-431",
+        "title": "Dummy Event 431",
+        "status": "pending",
+        "date": "2025-02-14",
+        "startTime": "07:00",
+        "endTime": "18:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-017",
+          "name": "John Green"
+        },
+        "businessUnit": {
+          "id": "bu-034",
+          "name": "April Harper"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-432",
+        "title": "Dummy Event 432",
+        "status": "cancelled",
+        "date": "2025-05-11",
+        "startTime": "16:00",
+        "endTime": "17:30",
+        "minutes": 30,
+        "user": {
+          "id": "usr-020",
+          "name": "Allison Short"
+        },
+        "businessUnit": {
+          "id": "bu-036",
+          "name": "Randall Gonzalez"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-044",
+    "title": "Dummy Event 44",
+    "status": "completed",
+    "date": "2024-08-24",
+    "startTime": "11:00",
+    "endTime": "18:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-011",
+      "name": "April Moss"
+    },
+    "businessUnit": {
+      "id": "bu-041",
+      "name": "Tasha Patel"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-045",
+    "title": "Dummy Event 45",
+    "status": "completed",
+    "date": "2025-04-05",
+    "startTime": "16:30",
+    "endTime": "18:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-007",
+      "name": "Courtney Osborn"
+    },
+    "businessUnit": {
+      "id": "bu-011",
+      "name": "Julie Berry"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-451",
+        "title": "Dummy Event 451",
+        "status": "completed",
+        "date": "2025-03-06",
+        "startTime": "16:30",
+        "endTime": "19:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-009",
+          "name": "Corey Greer"
+        },
+        "businessUnit": {
+          "id": "bu-039",
+          "name": "Chad Watts"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-4511",
+            "title": "Dummy Event 4511",
+            "status": "pending",
+            "date": "2024-08-20",
+            "startTime": "10:30",
+            "endTime": "17:00",
+            "minutes": 30,
+            "user": {
+              "id": "usr-018",
+              "name": "Ricky Rush"
+            },
+            "businessUnit": {
+              "id": "bu-029",
+              "name": "Ryan Lee"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-4512",
+            "title": "Dummy Event 4512",
+            "status": "completed",
+            "date": "2024-09-05",
+            "startTime": "08:30",
+            "endTime": "18:00",
+            "minutes": 60,
+            "user": {
+              "id": "usr-001",
+              "name": "Thomas Moore"
+            },
+            "businessUnit": {
+              "id": "bu-012",
+              "name": "Shelly Ware"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-452",
+        "title": "Dummy Event 452",
+        "status": "cancelled",
+        "date": "2024-12-13",
+        "startTime": "11:00",
+        "endTime": "18:00",
+        "minutes": 45,
+        "user": {
+          "id": "usr-016",
+          "name": "James Ramos"
+        },
+        "businessUnit": {
+          "id": "bu-017",
+          "name": "Richard Jenkins"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-453",
+        "title": "Dummy Event 453",
+        "status": "cancelled",
+        "date": "2025-05-06",
+        "startTime": "08:30",
+        "endTime": "19:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-007",
+          "name": "Mr. Michael Walter MD"
+        },
+        "businessUnit": {
+          "id": "bu-003",
+          "name": "Kyle Fernandez"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-4531",
+            "title": "Dummy Event 4531",
+            "status": "pending",
+            "date": "2024-08-26",
+            "startTime": "15:00",
+            "endTime": "19:30",
+            "minutes": 30,
+            "user": {
+              "id": "usr-009",
+              "name": "Shane Schneider"
+            },
+            "businessUnit": {
+              "id": "bu-046",
+              "name": "Raymond Lambert"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-046",
+    "title": "Dummy Event 46",
+    "status": "pending",
+    "date": "2024-12-26",
+    "startTime": "14:30",
+    "endTime": "19:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-015",
+      "name": "Danielle York"
+    },
+    "businessUnit": {
+      "id": "bu-002",
+      "name": "Adam Colon"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-461",
+        "title": "Dummy Event 461",
+        "status": "completed",
+        "date": "2025-03-10",
+        "startTime": "07:30",
+        "endTime": "19:30",
+        "minutes": 30,
+        "user": {
+          "id": "usr-020",
+          "name": "David Rice"
+        },
+        "businessUnit": {
+          "id": "bu-006",
+          "name": "John Henry"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-462",
+        "title": "Dummy Event 462",
+        "status": "pending",
+        "date": "2024-11-22",
+        "startTime": "14:00",
+        "endTime": "18:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-009",
+          "name": "Kenneth Lucas"
+        },
+        "businessUnit": {
+          "id": "bu-027",
+          "name": "Jessica Bruce"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-047",
+    "title": "Dummy Event 47",
+    "status": "pending",
+    "date": "2025-02-05",
+    "startTime": "13:00",
+    "endTime": "20:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-015",
+      "name": "Paul Mitchell"
+    },
+    "businessUnit": {
+      "id": "bu-011",
+      "name": "Deborah Lyons"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-471",
+        "title": "Dummy Event 471",
+        "status": "completed",
+        "date": "2024-11-19",
+        "startTime": "11:30",
+        "endTime": "17:30",
+        "minutes": 90,
+        "user": {
+          "id": "usr-017",
+          "name": "Bryan Garcia"
+        },
+        "businessUnit": {
+          "id": "bu-030",
+          "name": "Jonathan Herrera"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-4711",
+            "title": "Dummy Event 4711",
+            "status": "completed",
+            "date": "2025-02-01",
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "minutes": 90,
+            "user": {
+              "id": "usr-019",
+              "name": "Paula Bennett"
+            },
+            "businessUnit": {
+              "id": "bu-020",
+              "name": "Audrey Gates"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-472",
+        "title": "Dummy Event 472",
+        "status": "completed",
+        "date": "2024-08-23",
+        "startTime": "07:00",
+        "endTime": "19:00",
+        "minutes": 90,
+        "user": {
+          "id": "usr-002",
+          "name": "Todd Butler"
+        },
+        "businessUnit": {
+          "id": "bu-015",
+          "name": "Matthew Clark"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-4721",
+            "title": "Dummy Event 4721",
+            "status": "pending",
+            "date": "2024-09-27",
+            "startTime": "15:30",
+            "endTime": "19:00",
+            "minutes": 60,
+            "user": {
+              "id": "usr-017",
+              "name": "Ryan Tucker Jr."
+            },
+            "businessUnit": {
+              "id": "bu-043",
+              "name": "Marc Giles"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-4722",
+            "title": "Dummy Event 4722",
+            "status": "completed",
+            "date": "2025-01-02",
+            "startTime": "13:30",
+            "endTime": "17:30",
+            "minutes": 45,
+            "user": {
+              "id": "usr-013",
+              "name": "Kelly Riley"
+            },
+            "businessUnit": {
+              "id": "bu-012",
+              "name": "Anne Hart"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-048",
+    "title": "Dummy Event 48",
+    "status": "pending",
+    "date": "2024-09-10",
+    "startTime": "15:30",
+    "endTime": "19:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-005",
+      "name": "Anna Blake"
+    },
+    "businessUnit": {
+      "id": "bu-001",
+      "name": "John Davis"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-481",
+        "title": "Dummy Event 481",
+        "status": "pending",
+        "date": "2025-09-06",
+        "startTime": "10:30",
+        "endTime": "17:00",
+        "minutes": 90,
+        "user": {
+          "id": "usr-019",
+          "name": "Tiffany Reyes"
+        },
+        "businessUnit": {
+          "id": "bu-025",
+          "name": "Andrea Case"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-482",
+        "title": "Dummy Event 482",
+        "status": "cancelled",
+        "date": "2025-06-25",
+        "startTime": "08:30",
+        "endTime": "18:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-007",
+          "name": "Miguel Wiley"
+        },
+        "businessUnit": {
+          "id": "bu-010",
+          "name": "Diane Thompson"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-483",
+        "title": "Dummy Event 483",
+        "status": "cancelled",
+        "date": "2024-08-27",
+        "startTime": "13:30",
+        "endTime": "18:00",
+        "minutes": 30,
+        "user": {
+          "id": "usr-019",
+          "name": "Natalie Noble"
+        },
+        "businessUnit": {
+          "id": "bu-023",
+          "name": "Michelle Long"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-049",
+    "title": "Dummy Event 49",
+    "status": "cancelled",
+    "date": "2024-08-20",
+    "startTime": "14:00",
+    "endTime": "17:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-015",
+      "name": "Diana Gibson"
+    },
+    "businessUnit": {
+      "id": "bu-031",
+      "name": "Gregory Pitts"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-050",
+    "title": "Dummy Event 50",
+    "status": "completed",
+    "date": "2025-02-20",
+    "startTime": "13:30",
+    "endTime": "18:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-012",
+      "name": "Tara Watts"
+    },
+    "businessUnit": {
+      "id": "bu-025",
+      "name": "Tamara Alexander"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-051",
+    "title": "Dummy Event 51",
+    "status": "cancelled",
+    "date": "2025-01-17",
+    "startTime": "07:30",
+    "endTime": "19:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-017",
+      "name": "Charles Dixon"
+    },
+    "businessUnit": {
+      "id": "bu-004",
+      "name": "Taylor Lam"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-511",
+        "title": "Dummy Event 511",
+        "status": "pending",
+        "date": "2025-05-03",
+        "startTime": "14:30",
+        "endTime": "20:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-008",
+          "name": "Alan Peterson"
+        },
+        "businessUnit": {
+          "id": "bu-033",
+          "name": "Andrea Gibson"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-052",
+    "title": "Dummy Event 52",
+    "status": "completed",
+    "date": "2025-06-18",
+    "startTime": "08:00",
+    "endTime": "18:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-016",
+      "name": "Jenna Taylor"
+    },
+    "businessUnit": {
+      "id": "bu-011",
+      "name": "Walter Wolfe"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-053",
+    "title": "Dummy Event 53",
+    "status": "pending",
+    "date": "2025-07-31",
+    "startTime": "12:30",
+    "endTime": "19:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-017",
+      "name": "Catherine Neal"
+    },
+    "businessUnit": {
+      "id": "bu-016",
+      "name": "Michael Rodriguez"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-054",
+    "title": "Dummy Event 54",
+    "status": "pending",
+    "date": "2025-03-25",
+    "startTime": "16:30",
+    "endTime": "18:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-002",
+      "name": "Tristan Garner"
+    },
+    "businessUnit": {
+      "id": "bu-020",
+      "name": "Aaron Johnson"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-055",
+    "title": "Dummy Event 55",
+    "status": "completed",
+    "date": "2025-06-19",
+    "startTime": "11:30",
+    "endTime": "19:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-015",
+      "name": "Jason Ramirez"
+    },
+    "businessUnit": {
+      "id": "bu-033",
+      "name": "Olivia Morgan"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-056",
+    "title": "Dummy Event 56",
+    "status": "completed",
+    "date": "2025-03-18",
+    "startTime": "09:30",
+    "endTime": "19:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-017",
+      "name": "Shelby Hill"
+    },
+    "businessUnit": {
+      "id": "bu-020",
+      "name": "Tracey Powers"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-057",
+    "title": "Dummy Event 57",
+    "status": "pending",
+    "date": "2025-03-03",
+    "startTime": "12:30",
+    "endTime": "19:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-001",
+      "name": "Jennifer Riddle"
+    },
+    "businessUnit": {
+      "id": "bu-022",
+      "name": "Michele Cooke"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-571",
+        "title": "Dummy Event 571",
+        "status": "cancelled",
+        "date": "2024-10-14",
+        "startTime": "07:30",
+        "endTime": "19:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-015",
+          "name": "Chelsey Phillips"
+        },
+        "businessUnit": {
+          "id": "bu-026",
+          "name": "Miranda Horton"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-572",
+        "title": "Dummy Event 572",
+        "status": "cancelled",
+        "date": "2024-09-06",
+        "startTime": "12:30",
+        "endTime": "17:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-012",
+          "name": "Harold Clark"
+        },
+        "businessUnit": {
+          "id": "bu-028",
+          "name": "Heather Gaines"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-573",
+        "title": "Dummy Event 573",
+        "status": "cancelled",
+        "date": "2025-05-16",
+        "startTime": "10:30",
+        "endTime": "19:00",
+        "minutes": 30,
+        "user": {
+          "id": "usr-001",
+          "name": "Ashley Wells"
+        },
+        "businessUnit": {
+          "id": "bu-014",
+          "name": "James Walker"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-058",
+    "title": "Dummy Event 58",
+    "status": "pending",
+    "date": "2025-06-19",
+    "startTime": "12:30",
+    "endTime": "18:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-019",
+      "name": "Phillip Williams"
+    },
+    "businessUnit": {
+      "id": "bu-004",
+      "name": "Lisa Davis"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-059",
+    "title": "Dummy Event 59",
+    "status": "cancelled",
+    "date": "2025-04-15",
+    "startTime": "11:30",
+    "endTime": "18:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-017",
+      "name": "Stacey Yang"
+    },
+    "businessUnit": {
+      "id": "bu-039",
+      "name": "Andrew Tyler"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-060",
+    "title": "Dummy Event 60",
+    "status": "pending",
+    "date": "2025-07-31",
+    "startTime": "12:30",
+    "endTime": "17:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-001",
+      "name": "William Stafford"
+    },
+    "businessUnit": {
+      "id": "bu-015",
+      "name": "Michael Cannon"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-061",
+    "title": "Dummy Event 61",
+    "status": "completed",
+    "date": "2024-09-19",
+    "startTime": "15:00",
+    "endTime": "18:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-009",
+      "name": "Darrell Crosby"
+    },
+    "businessUnit": {
+      "id": "bu-008",
+      "name": "Jason Lopez"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-062",
+    "title": "Dummy Event 62",
+    "status": "cancelled",
+    "date": "2024-09-09",
+    "startTime": "07:00",
+    "endTime": "17:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-015",
+      "name": "Tina Johnson"
+    },
+    "businessUnit": {
+      "id": "bu-035",
+      "name": "Lauren Garcia"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-063",
+    "title": "Dummy Event 63",
+    "status": "completed",
+    "date": "2025-03-13",
+    "startTime": "08:30",
+    "endTime": "19:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-018",
+      "name": "Steven Perry"
+    },
+    "businessUnit": {
+      "id": "bu-021",
+      "name": "Brian Keller"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-064",
+    "title": "Dummy Event 64",
+    "status": "cancelled",
+    "date": "2024-11-29",
+    "startTime": "12:00",
+    "endTime": "17:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-017",
+      "name": "Courtney Houston"
+    },
+    "businessUnit": {
+      "id": "bu-003",
+      "name": "Jacqueline Stewart"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-065",
+    "title": "Dummy Event 65",
+    "status": "completed",
+    "date": "2025-06-05",
+    "startTime": "07:30",
+    "endTime": "18:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-014",
+      "name": "Maria Poole"
+    },
+    "businessUnit": {
+      "id": "bu-004",
+      "name": "Mark Larsen"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-651",
+        "title": "Dummy Event 651",
+        "status": "cancelled",
+        "date": "2025-08-06",
+        "startTime": "10:00",
+        "endTime": "17:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-020",
+          "name": "William Jones"
+        },
+        "businessUnit": {
+          "id": "bu-044",
+          "name": "Ann Bates"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-6511",
+            "title": "Dummy Event 6511",
+            "status": "completed",
+            "date": "2025-06-09",
+            "startTime": "14:00",
+            "endTime": "20:30",
+            "minutes": 60,
+            "user": {
+              "id": "usr-012",
+              "name": "Marissa Ferguson"
+            },
+            "businessUnit": {
+              "id": "bu-004",
+              "name": "Gabriela Mills"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-6512",
+            "title": "Dummy Event 6512",
+            "status": "pending",
+            "date": "2025-02-06",
+            "startTime": "09:30",
+            "endTime": "17:00",
+            "minutes": 60,
+            "user": {
+              "id": "usr-014",
+              "name": "Shelia Martinez"
+            },
+            "businessUnit": {
+              "id": "bu-029",
+              "name": "Elaine Wells"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-6513",
+            "title": "Dummy Event 6513",
+            "status": "completed",
+            "date": "2025-03-07",
+            "startTime": "09:00",
+            "endTime": "20:00",
+            "minutes": 60,
+            "user": {
+              "id": "usr-013",
+              "name": "Debra Sharp"
+            },
+            "businessUnit": {
+              "id": "bu-031",
+              "name": "Rachael Baker"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-652",
+        "title": "Dummy Event 652",
+        "status": "cancelled",
+        "date": "2024-09-18",
+        "startTime": "07:00",
+        "endTime": "19:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-018",
+          "name": "Amber Wiggins"
+        },
+        "businessUnit": {
+          "id": "bu-026",
+          "name": "Jennifer Vaughn"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-653",
+        "title": "Dummy Event 653",
+        "status": "pending",
+        "date": "2024-09-29",
+        "startTime": "16:30",
+        "endTime": "19:30",
+        "minutes": 30,
+        "user": {
+          "id": "usr-012",
+          "name": "Lori Walters"
+        },
+        "businessUnit": {
+          "id": "bu-009",
+          "name": "Mr. Matthew Smith"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-066",
+    "title": "Dummy Event 66",
+    "status": "cancelled",
+    "date": "2025-03-05",
+    "startTime": "11:30",
+    "endTime": "17:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-016",
+      "name": "Sharon Baker"
+    },
+    "businessUnit": {
+      "id": "bu-032",
+      "name": "Andrew Davis"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-067",
+    "title": "Dummy Event 67",
+    "status": "completed",
+    "date": "2024-11-15",
+    "startTime": "14:00",
+    "endTime": "19:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-005",
+      "name": "Wayne Hogan"
+    },
+    "businessUnit": {
+      "id": "bu-041",
+      "name": "David Bruce"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-671",
+        "title": "Dummy Event 671",
+        "status": "completed",
+        "date": "2024-09-16",
+        "startTime": "10:00",
+        "endTime": "19:30",
+        "minutes": 90,
+        "user": {
+          "id": "usr-010",
+          "name": "Andrea Calderon"
+        },
+        "businessUnit": {
+          "id": "bu-049",
+          "name": "Jasmine Jones"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-672",
+        "title": "Dummy Event 672",
+        "status": "completed",
+        "date": "2025-02-11",
+        "startTime": "13:00",
+        "endTime": "17:30",
+        "minutes": 90,
+        "user": {
+          "id": "usr-017",
+          "name": "Crystal Armstrong"
+        },
+        "businessUnit": {
+          "id": "bu-034",
+          "name": "Annette Figueroa"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-673",
+        "title": "Dummy Event 673",
+        "status": "completed",
+        "date": "2024-12-14",
+        "startTime": "11:00",
+        "endTime": "18:00",
+        "minutes": 90,
+        "user": {
+          "id": "usr-008",
+          "name": "Albert Johnston"
+        },
+        "businessUnit": {
+          "id": "bu-005",
+          "name": "Jason Fitzpatrick"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-068",
+    "title": "Dummy Event 68",
+    "status": "completed",
+    "date": "2025-05-26",
+    "startTime": "11:00",
+    "endTime": "18:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-014",
+      "name": "Dennis Williams"
+    },
+    "businessUnit": {
+      "id": "bu-010",
+      "name": "Jodi Perry"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-069",
+    "title": "Dummy Event 69",
+    "status": "completed",
+    "date": "2025-05-22",
+    "startTime": "12:30",
+    "endTime": "19:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-002",
+      "name": "Scott Mercado"
+    },
+    "businessUnit": {
+      "id": "bu-016",
+      "name": "Patricia Johns"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-691",
+        "title": "Dummy Event 691",
+        "status": "cancelled",
+        "date": "2024-08-18",
+        "startTime": "11:00",
+        "endTime": "17:00",
+        "minutes": 30,
+        "user": {
+          "id": "usr-015",
+          "name": "Sarah Stout"
+        },
+        "businessUnit": {
+          "id": "bu-030",
+          "name": "James Newton"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-692",
+        "title": "Dummy Event 692",
+        "status": "cancelled",
+        "date": "2025-05-09",
+        "startTime": "15:00",
+        "endTime": "19:00",
+        "minutes": 45,
+        "user": {
+          "id": "usr-007",
+          "name": "Michael Shelton"
+        },
+        "businessUnit": {
+          "id": "bu-028",
+          "name": "Richard Hale"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-070",
+    "title": "Dummy Event 70",
+    "status": "pending",
+    "date": "2024-11-13",
+    "startTime": "12:30",
+    "endTime": "18:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-014",
+      "name": "Taylor Warren"
+    },
+    "businessUnit": {
+      "id": "bu-026",
+      "name": "Frances Herman"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-071",
+    "title": "Dummy Event 71",
+    "status": "pending",
+    "date": "2024-10-06",
+    "startTime": "11:00",
+    "endTime": "19:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-004",
+      "name": "Marie Hopkins"
+    },
+    "businessUnit": {
+      "id": "bu-008",
+      "name": "William Mcdonald"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-072",
+    "title": "Dummy Event 72",
+    "status": "cancelled",
+    "date": "2025-06-17",
+    "startTime": "07:30",
+    "endTime": "19:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-019",
+      "name": "Amanda Li"
+    },
+    "businessUnit": {
+      "id": "bu-037",
+      "name": "Jennifer Peters"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-073",
+    "title": "Dummy Event 73",
+    "status": "completed",
+    "date": "2024-12-01",
+    "startTime": "13:30",
+    "endTime": "18:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-012",
+      "name": "Carrie Mcgee"
+    },
+    "businessUnit": {
+      "id": "bu-005",
+      "name": "Heather Jones"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-074",
+    "title": "Dummy Event 74",
+    "status": "cancelled",
+    "date": "2025-01-31",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-009",
+      "name": "Mike Barker"
+    },
+    "businessUnit": {
+      "id": "bu-050",
+      "name": "Melissa Harrison"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-075",
+    "title": "Dummy Event 75",
+    "status": "cancelled",
+    "date": "2024-09-22",
+    "startTime": "09:30",
+    "endTime": "20:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-013",
+      "name": "Elizabeth Adams"
+    },
+    "businessUnit": {
+      "id": "bu-031",
+      "name": "Scott Smith"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-076",
+    "title": "Dummy Event 76",
+    "status": "cancelled",
+    "date": "2024-09-18",
+    "startTime": "10:30",
+    "endTime": "19:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-019",
+      "name": "Melissa Soto"
+    },
+    "businessUnit": {
+      "id": "bu-042",
+      "name": "Mary Hughes"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-761",
+        "title": "Dummy Event 761",
+        "status": "pending",
+        "date": "2025-01-19",
+        "startTime": "11:30",
+        "endTime": "17:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-003",
+          "name": "Dakota Mejia"
+        },
+        "businessUnit": {
+          "id": "bu-019",
+          "name": "Katie Frazier"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-7611",
+            "title": "Dummy Event 7611",
+            "status": "completed",
+            "date": "2024-08-20",
+            "startTime": "07:00",
+            "endTime": "18:00",
+            "minutes": 30,
+            "user": {
+              "id": "usr-009",
+              "name": "Tracy Rose"
+            },
+            "businessUnit": {
+              "id": "bu-022",
+              "name": "Jesse Guzman"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-7612",
+            "title": "Dummy Event 7612",
+            "status": "cancelled",
+            "date": "2025-01-06",
+            "startTime": "13:30",
+            "endTime": "20:30",
+            "minutes": 30,
+            "user": {
+              "id": "usr-015",
+              "name": "Theresa Spencer"
+            },
+            "businessUnit": {
+              "id": "bu-038",
+              "name": "Sarah Kirby"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-7613",
+            "title": "Dummy Event 7613",
+            "status": "pending",
+            "date": "2025-06-10",
+            "startTime": "08:30",
+            "endTime": "17:00",
+            "minutes": 60,
+            "user": {
+              "id": "usr-009",
+              "name": "Richard Cummings"
+            },
+            "businessUnit": {
+              "id": "bu-011",
+              "name": "Raymond West"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-077",
+    "title": "Dummy Event 77",
+    "status": "pending",
+    "date": "2024-09-09",
+    "startTime": "07:00",
+    "endTime": "17:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-001",
+      "name": "Justin Dorsey"
+    },
+    "businessUnit": {
+      "id": "bu-024",
+      "name": "Tyler Williams"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-078",
+    "title": "Dummy Event 78",
+    "status": "completed",
+    "date": "2025-07-06",
+    "startTime": "12:00",
+    "endTime": "18:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-008",
+      "name": "Brandy Williams"
+    },
+    "businessUnit": {
+      "id": "bu-002",
+      "name": "Mark Taylor"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-079",
+    "title": "Dummy Event 79",
+    "status": "completed",
+    "date": "2025-04-27",
+    "startTime": "10:00",
+    "endTime": "17:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-004",
+      "name": "Jennifer Shaw"
+    },
+    "businessUnit": {
+      "id": "bu-025",
+      "name": "Michelle Parker"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-080",
+    "title": "Dummy Event 80",
+    "status": "pending",
+    "date": "2025-05-19",
+    "startTime": "14:00",
+    "endTime": "17:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-001",
+      "name": "Nancy Hall"
+    },
+    "businessUnit": {
+      "id": "bu-016",
+      "name": "Amanda Lewis"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-081",
+    "title": "Dummy Event 81",
+    "status": "cancelled",
+    "date": "2025-04-19",
+    "startTime": "07:00",
+    "endTime": "17:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-020",
+      "name": "Jordan Moore"
+    },
+    "businessUnit": {
+      "id": "bu-005",
+      "name": "Kristen Hernandez"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-082",
+    "title": "Dummy Event 82",
+    "status": "cancelled",
+    "date": "2024-10-06",
+    "startTime": "15:30",
+    "endTime": "20:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-006",
+      "name": "Marc Greer"
+    },
+    "businessUnit": {
+      "id": "bu-003",
+      "name": "Spencer Morris"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-083",
+    "title": "Dummy Event 83",
+    "status": "cancelled",
+    "date": "2024-08-25",
+    "startTime": "16:30",
+    "endTime": "19:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-016",
+      "name": "Tammy Conner"
+    },
+    "businessUnit": {
+      "id": "bu-005",
+      "name": "Heather Clark"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-831",
+        "title": "Dummy Event 831",
+        "status": "cancelled",
+        "date": "2025-05-28",
+        "startTime": "12:00",
+        "endTime": "18:30",
+        "minutes": 30,
+        "user": {
+          "id": "usr-002",
+          "name": "Faith Sanchez"
+        },
+        "businessUnit": {
+          "id": "bu-048",
+          "name": "Angela Lee"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-832",
+        "title": "Dummy Event 832",
+        "status": "completed",
+        "date": "2025-06-02",
+        "startTime": "08:00",
+        "endTime": "20:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-007",
+          "name": "Leslie Sparks"
+        },
+        "businessUnit": {
+          "id": "bu-005",
+          "name": "Susan Nguyen"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-084",
+    "title": "Dummy Event 84",
+    "status": "cancelled",
+    "date": "2025-06-22",
+    "startTime": "11:00",
+    "endTime": "17:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-003",
+      "name": "Jamie Lara"
+    },
+    "businessUnit": {
+      "id": "bu-037",
+      "name": "William Jenkins"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-085",
+    "title": "Dummy Event 85",
+    "status": "cancelled",
+    "date": "2024-12-23",
+    "startTime": "07:30",
+    "endTime": "19:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-001",
+      "name": "Misty Dudley"
+    },
+    "businessUnit": {
+      "id": "bu-022",
+      "name": "Philip Jones"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-851",
+        "title": "Dummy Event 851",
+        "status": "completed",
+        "date": "2025-01-23",
+        "startTime": "14:00",
+        "endTime": "18:30",
+        "minutes": 90,
+        "user": {
+          "id": "usr-001",
+          "name": "Autumn Cook"
+        },
+        "businessUnit": {
+          "id": "bu-012",
+          "name": "Emily Cook"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-852",
+        "title": "Dummy Event 852",
+        "status": "cancelled",
+        "date": "2025-03-19",
+        "startTime": "12:00",
+        "endTime": "18:30",
+        "minutes": 90,
+        "user": {
+          "id": "usr-013",
+          "name": "Amanda Wilkerson"
+        },
+        "businessUnit": {
+          "id": "bu-003",
+          "name": "Elizabeth Thompson"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-086",
+    "title": "Dummy Event 86",
+    "status": "completed",
+    "date": "2025-08-01",
+    "startTime": "14:30",
+    "endTime": "17:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-011",
+      "name": "Steven Ryan"
+    },
+    "businessUnit": {
+      "id": "bu-048",
+      "name": "Andrea Shaw"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-861",
+        "title": "Dummy Event 861",
+        "status": "completed",
+        "date": "2024-12-02",
+        "startTime": "09:30",
+        "endTime": "17:00",
+        "minutes": 60,
+        "user": {
+          "id": "usr-012",
+          "name": "Elizabeth Wilson"
+        },
+        "businessUnit": {
+          "id": "bu-009",
+          "name": "Matthew Day"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-8611",
+            "title": "Dummy Event 8611",
+            "status": "completed",
+            "date": "2025-03-29",
+            "startTime": "07:00",
+            "endTime": "17:00",
+            "minutes": 45,
+            "user": {
+              "id": "usr-018",
+              "name": "Stephen Johnson"
+            },
+            "businessUnit": {
+              "id": "bu-002",
+              "name": "Eric Wells"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-8612",
+            "title": "Dummy Event 8612",
+            "status": "cancelled",
+            "date": "2024-09-20",
+            "startTime": "13:30",
+            "endTime": "18:00",
+            "minutes": 60,
+            "user": {
+              "id": "usr-003",
+              "name": "Michael James"
+            },
+            "businessUnit": {
+              "id": "bu-023",
+              "name": "Deanna Jordan"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-8613",
+            "title": "Dummy Event 8613",
+            "status": "cancelled",
+            "date": "2025-05-31",
+            "startTime": "11:30",
+            "endTime": "17:00",
+            "minutes": 45,
+            "user": {
+              "id": "usr-004",
+              "name": "Charles Aguilar"
+            },
+            "businessUnit": {
+              "id": "bu-027",
+              "name": "Tara Barker"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-862",
+        "title": "Dummy Event 862",
+        "status": "completed",
+        "date": "2025-02-17",
+        "startTime": "11:30",
+        "endTime": "20:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-009",
+          "name": "Shelby Werner"
+        },
+        "businessUnit": {
+          "id": "bu-037",
+          "name": "Todd Simmons"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-8621",
+            "title": "Dummy Event 8621",
+            "status": "completed",
+            "date": "2024-11-03",
+            "startTime": "09:00",
+            "endTime": "19:00",
+            "minutes": 30,
+            "user": {
+              "id": "usr-013",
+              "name": "Jonathan Martin"
+            },
+            "businessUnit": {
+              "id": "bu-006",
+              "name": "Taylor Le"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-8622",
+            "title": "Dummy Event 8622",
+            "status": "completed",
+            "date": "2025-03-07",
+            "startTime": "07:00",
+            "endTime": "18:30",
+            "minutes": 90,
+            "user": {
+              "id": "usr-007",
+              "name": "Brent Garcia"
+            },
+            "businessUnit": {
+              "id": "bu-038",
+              "name": "Anthony Lambert"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-087",
+    "title": "Dummy Event 87",
+    "status": "cancelled",
+    "date": "2025-02-05",
+    "startTime": "11:30",
+    "endTime": "18:00",
+    "minutes": 45,
+    "user": {
+      "id": "usr-016",
+      "name": "Jennifer Barnett"
+    },
+    "businessUnit": {
+      "id": "bu-048",
+      "name": "Mrs. Catherine Lee"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-088",
+    "title": "Dummy Event 88",
+    "status": "pending",
+    "date": "2024-12-31",
+    "startTime": "10:30",
+    "endTime": "18:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-006",
+      "name": "Robin Reyes"
+    },
+    "businessUnit": {
+      "id": "bu-020",
+      "name": "Elizabeth Gibbs"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-089",
+    "title": "Dummy Event 89",
+    "status": "cancelled",
+    "date": "2024-12-01",
+    "startTime": "10:30",
+    "endTime": "17:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-013",
+      "name": "Patricia Gillespie"
+    },
+    "businessUnit": {
+      "id": "bu-042",
+      "name": "Russell Estrada"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-090",
+    "title": "Dummy Event 90",
+    "status": "pending",
+    "date": "2024-12-11",
+    "startTime": "16:00",
+    "endTime": "18:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-010",
+      "name": "Hannah Smith"
+    },
+    "businessUnit": {
+      "id": "bu-005",
+      "name": "Jenny Fletcher"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-091",
+    "title": "Dummy Event 91",
+    "status": "pending",
+    "date": "2025-05-25",
+    "startTime": "13:00",
+    "endTime": "18:30",
+    "minutes": 30,
+    "user": {
+      "id": "usr-020",
+      "name": "Ray French"
+    },
+    "businessUnit": {
+      "id": "bu-045",
+      "name": "Rodney Burgess"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-911",
+        "title": "Dummy Event 911",
+        "status": "completed",
+        "date": "2024-10-28",
+        "startTime": "09:30",
+        "endTime": "17:00",
+        "minutes": 45,
+        "user": {
+          "id": "usr-017",
+          "name": "Robert Tran"
+        },
+        "businessUnit": {
+          "id": "bu-039",
+          "name": "Daniel Mendez"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "evt-092",
+    "title": "Dummy Event 92",
+    "status": "cancelled",
+    "date": "2025-05-29",
+    "startTime": "14:00",
+    "endTime": "20:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-012",
+      "name": "Lori Barnett"
+    },
+    "businessUnit": {
+      "id": "bu-014",
+      "name": "Abigail Moss"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-093",
+    "title": "Dummy Event 93",
+    "status": "completed",
+    "date": "2024-11-28",
+    "startTime": "13:00",
+    "endTime": "19:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-017",
+      "name": "Robert Barber"
+    },
+    "businessUnit": {
+      "id": "bu-017",
+      "name": "Christian Hart"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-094",
+    "title": "Dummy Event 94",
+    "status": "cancelled",
+    "date": "2025-03-02",
+    "startTime": "10:00",
+    "endTime": "17:30",
+    "minutes": 45,
+    "user": {
+      "id": "usr-006",
+      "name": "Jacob Gonzalez"
+    },
+    "businessUnit": {
+      "id": "bu-019",
+      "name": "Richard Miller"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-095",
+    "title": "Dummy Event 95",
+    "status": "cancelled",
+    "date": "2025-07-23",
+    "startTime": "10:00",
+    "endTime": "19:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-009",
+      "name": "Luis Jimenez"
+    },
+    "businessUnit": {
+      "id": "bu-044",
+      "name": "Kristen Pierce"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-096",
+    "title": "Dummy Event 96",
+    "status": "cancelled",
+    "date": "2024-12-05",
+    "startTime": "08:30",
+    "endTime": "18:00",
+    "minutes": 60,
+    "user": {
+      "id": "usr-015",
+      "name": "Christine Moore"
+    },
+    "businessUnit": {
+      "id": "bu-040",
+      "name": "Caitlin Gonzalez"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-097",
+    "title": "Dummy Event 97",
+    "status": "cancelled",
+    "date": "2025-04-04",
+    "startTime": "10:00",
+    "endTime": "18:00",
+    "minutes": 30,
+    "user": {
+      "id": "usr-013",
+      "name": "Cathy Smith"
+    },
+    "businessUnit": {
+      "id": "bu-003",
+      "name": "Michael Franco"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-971",
+        "title": "Dummy Event 971",
+        "status": "cancelled",
+        "date": "2025-08-06",
+        "startTime": "08:30",
+        "endTime": "17:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-009",
+          "name": "Karen Jacobs"
+        },
+        "businessUnit": {
+          "id": "bu-030",
+          "name": "Virginia Lopez"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-9711",
+            "title": "Dummy Event 9711",
+            "status": "completed",
+            "date": "2025-07-16",
+            "startTime": "09:00",
+            "endTime": "20:30",
+            "minutes": 30,
+            "user": {
+              "id": "usr-009",
+              "name": "David Patel"
+            },
+            "businessUnit": {
+              "id": "bu-042",
+              "name": "Alyssa Noble"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-972",
+        "title": "Dummy Event 972",
+        "status": "cancelled",
+        "date": "2025-02-20",
+        "startTime": "13:30",
+        "endTime": "18:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-007",
+          "name": "Mary Jensen"
+        },
+        "businessUnit": {
+          "id": "bu-004",
+          "name": "Lisa Davis"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-9721",
+            "title": "Dummy Event 9721",
+            "status": "pending",
+            "date": "2025-04-09",
+            "startTime": "13:00",
+            "endTime": "18:30",
+            "minutes": 90,
+            "user": {
+              "id": "usr-003",
+              "name": "Roberto Gardner"
+            },
+            "businessUnit": {
+              "id": "bu-017",
+              "name": "Troy Martinez"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-9722",
+            "title": "Dummy Event 9722",
+            "status": "pending",
+            "date": "2025-05-04",
+            "startTime": "15:00",
+            "endTime": "19:00",
+            "minutes": 60,
+            "user": {
+              "id": "usr-004",
+              "name": "Jennifer Gonzalez"
+            },
+            "businessUnit": {
+              "id": "bu-040",
+              "name": "Mark Kim"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-098",
+    "title": "Dummy Event 98",
+    "status": "completed",
+    "date": "2024-08-30",
+    "startTime": "16:00",
+    "endTime": "20:00",
+    "minutes": 90,
+    "user": {
+      "id": "usr-001",
+      "name": "Mark Porter"
+    },
+    "businessUnit": {
+      "id": "bu-032",
+      "name": "John Chapman MD"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-981",
+        "title": "Dummy Event 981",
+        "status": "cancelled",
+        "date": "2025-02-03",
+        "startTime": "15:30",
+        "endTime": "17:30",
+        "minutes": 60,
+        "user": {
+          "id": "usr-015",
+          "name": "Maria Perry"
+        },
+        "businessUnit": {
+          "id": "bu-007",
+          "name": "Ryan Wilcox"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-982",
+        "title": "Dummy Event 982",
+        "status": "completed",
+        "date": "2024-08-21",
+        "startTime": "12:30",
+        "endTime": "19:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-016",
+          "name": "Mackenzie Todd"
+        },
+        "businessUnit": {
+          "id": "bu-043",
+          "name": "James Johnson"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-9821",
+            "title": "Dummy Event 9821",
+            "status": "completed",
+            "date": "2025-02-15",
+            "startTime": "14:00",
+            "endTime": "17:00",
+            "minutes": 30,
+            "user": {
+              "id": "usr-011",
+              "name": "Holly Jenkins"
+            },
+            "businessUnit": {
+              "id": "bu-041",
+              "name": "Nicholas Richard"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-9822",
+            "title": "Dummy Event 9822",
+            "status": "pending",
+            "date": "2025-06-09",
+            "startTime": "15:00",
+            "endTime": "20:30",
+            "minutes": 60,
+            "user": {
+              "id": "usr-015",
+              "name": "Kristopher Dixon"
+            },
+            "businessUnit": {
+              "id": "bu-010",
+              "name": "Kristi Santiago DVM"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-9823",
+            "title": "Dummy Event 9823",
+            "status": "completed",
+            "date": "2025-05-09",
+            "startTime": "10:30",
+            "endTime": "18:00",
+            "minutes": 45,
+            "user": {
+              "id": "usr-020",
+              "name": "Fernando Fisher"
+            },
+            "businessUnit": {
+              "id": "bu-047",
+              "name": "Michelle Luna"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "evt-983",
+        "title": "Dummy Event 983",
+        "status": "completed",
+        "date": "2025-07-06",
+        "startTime": "12:00",
+        "endTime": "18:30",
+        "minutes": 45,
+        "user": {
+          "id": "usr-020",
+          "name": "Frank Rocha"
+        },
+        "businessUnit": {
+          "id": "bu-012",
+          "name": "James Bird"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          }
+        ],
+        "children": [
+          {
+            "id": "evt-9831",
+            "title": "Dummy Event 9831",
+            "status": "completed",
+            "date": "2025-06-11",
+            "startTime": "14:00",
+            "endTime": "17:30",
+            "minutes": 30,
+            "user": {
+              "id": "usr-017",
+              "name": "Jennifer Romero"
+            },
+            "businessUnit": {
+              "id": "bu-050",
+              "name": "David Watson"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "evt-9832",
+            "title": "Dummy Event 9832",
+            "status": "cancelled",
+            "date": "2025-06-04",
+            "startTime": "15:30",
+            "endTime": "18:00",
+            "minutes": 90,
+            "user": {
+              "id": "usr-019",
+              "name": "John Coffey"
+            },
+            "businessUnit": {
+              "id": "bu-013",
+              "name": "Amy Medina"
+            },
+            "billingCodes": [
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155"
+              },
+              {
+                "type": "CPT",
+                "code": "97153",
+                "id": "CPT-97153"
+              },
+              {
+                "type": "CPT",
+                "code": "97155",
+                "id": "CPT-97155-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156-HN"
+              },
+              {
+                "type": "CPT",
+                "code": "97156",
+                "id": "CPT-97156"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evt-099",
+    "title": "Dummy Event 99",
+    "status": "pending",
+    "date": "2025-01-16",
+    "startTime": "09:00",
+    "endTime": "20:30",
+    "minutes": 90,
+    "user": {
+      "id": "usr-003",
+      "name": "Katelyn Barber"
+    },
+    "businessUnit": {
+      "id": "bu-002",
+      "name": "Diana Price"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97153",
+        "id": "CPT-97153"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155"
+      },
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "evt-100",
+    "title": "Dummy Event 100",
+    "status": "pending",
+    "date": "2025-03-23",
+    "startTime": "10:00",
+    "endTime": "17:30",
+    "minutes": 60,
+    "user": {
+      "id": "usr-006",
+      "name": "Andrea Perry"
+    },
+    "businessUnit": {
+      "id": "bu-020",
+      "name": "Bobby Marsh"
+    },
+    "billingCodes": [
+      {
+        "type": "CPT",
+        "code": "97156",
+        "id": "CPT-97156-HN"
+      },
+      {
+        "type": "CPT",
+        "code": "97155",
+        "id": "CPT-97155-HN"
+      }
+    ],
+    "children": [
+      {
+        "id": "evt-1001",
+        "title": "Dummy Event 1001",
+        "status": "completed",
+        "date": "2025-04-22",
+        "startTime": "10:00",
+        "endTime": "17:00",
+        "minutes": 90,
+        "user": {
+          "id": "usr-011",
+          "name": "Cynthia Holmes"
+        },
+        "businessUnit": {
+          "id": "bu-006",
+          "name": "Troy Nelson"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          }
+        ],
+        "children": []
+      },
+      {
+        "id": "evt-1002",
+        "title": "Dummy Event 1002",
+        "status": "pending",
+        "date": "2024-08-18",
+        "startTime": "09:30",
+        "endTime": "18:00",
+        "minutes": 30,
+        "user": {
+          "id": "usr-016",
+          "name": "Daniel Gutierrez"
+        },
+        "businessUnit": {
+          "id": "bu-027",
+          "name": "Blake Bruce"
+        },
+        "billingCodes": [
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156"
+          },
+          {
+            "type": "CPT",
+            "code": "97156",
+            "id": "CPT-97156-HN"
+          },
+          {
+            "type": "CPT",
+            "code": "97155",
+            "id": "CPT-97155"
+          },
+          {
+            "type": "CPT",
+            "code": "97153",
+            "id": "CPT-97153"
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+]
