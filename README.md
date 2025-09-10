@@ -2,10 +2,26 @@
 
 ## Project Setup
 
-You have access to a starter repo with:
+This repository is a **template**.  
+👉 **Do not fork or clone this repository directly.**
+
+Instead:
+
+1. Click the green **"Use this template"** button on the top right.
+2. Select **"Create a new repository"** under your own GitHub account.
+3. Set the repository to **Private**.
+4. Complete the exercise inside your new repository.
+5. Once done, invite the reviewer by adding **ajon@officepuzzle.com** as a collaborator in your private repo (Settings → Collaborators and teams).
+
+---
+
+## Provided Starter Code
+
+The template includes:
 
 - `/frontend` → Vue 2 app with basic template
 - `/backend` → Symfony PHP app with basic API template
+- `dummy_events.json` → JSON dataset of 100 events
 
 Your task is to implement a small event management system using the provided JSON dataset of 100 events (`dummy_events.json`).
 
@@ -99,11 +115,11 @@ Your task is to implement a small event management system using the provided JSO
 
 ## Deliverables
 
-1. Create a GitHub repository for the project.
+1. Create a new **private GitHub repository** from this template.
 2. Include updated `/backend` with all required API endpoints.
 3. Include updated `/frontend` that consumes the endpoints and displays the table with pagination, filters, and recursive children display.
 4. Include bonus tasks if completed:
    - Tests in the frontend verifying table and recursive behavior.
    - Ability to PATCH and DELETE events.
    - Docker configuration for backend and frontend.
-5. Share the GitHub repo link.
+5. **Submit your solution by inviting `ajon@officepuzzle.com` as a collaborator to your private repository.**  
