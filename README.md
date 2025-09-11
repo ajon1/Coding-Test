@@ -7,7 +7,7 @@ This repository is a **template**.
 
 Instead:
 
-1. Click the green **"Use this template"** button on the top right.
+1. Click the green **"Use this template"** button on the top right (you must be signed in to GitHub to see the button).
 2. Select **"Create a new repository"** under your own GitHub account.
 3. Set the repository to **Private**.
 4. Complete the exercise inside your new repository.
